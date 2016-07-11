@@ -1,0 +1,32 @@
+{
+    "name": "abuseio/parser-sony",
+    "description": "Parser addon for handling notifications from no-reply@snei.sony.com",
+    "version": "1.0.0",
+    "keywords": ["laravel", "abuseio", "parser", "sony"],
+    "homepage": "http://abuse.io",
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ioannis Kakavas",
+            "email": "ikakavas@noc.grnet.gr",
+            "homepage": "https://cert.grnet.gr",
+            "role": "Lead"
+        }
+    ],
+    "support": {
+        "email": "ikakavas@noc.grnet.gr",
+        "issues": "https://github.com/jkakavas/parser-sony/issues",
+        "irc": "irc://irc.freenode.net/abuseio",
+        "source": "https://github.com/AbuseIO/parser-sony"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "abuseio/parser-common": "1.1.* || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "AbuseIO\\Parser\\Sony\\": "src/"
+        }
+    }
+}
