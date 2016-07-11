@@ -46,7 +46,7 @@ class Sony extends Parser
                             'Source-IP' => $matches[3],
                             'Abuse-Type' => $matches[4],
                             'Abuse-Date' => $matches[1],
-                            'Abuse-Text' => config("{$this->configBase}.abuse-text")                          
+                            'Abuse-Text' => config("{$this->configBase}.parser.abuse-text")                          
                         ];
                         $reports[] = $report;
                     }    
